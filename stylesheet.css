@@ -1,0 +1,160 @@
+/* #F93 */
+/* #C60 */
+body{
+  background-color: #white;
+}
+#cssmenu {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #FF5D5D;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+}
+#cssmenu ul{
+  background-color: #FF5D5D;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+#cssmenu li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+
+#cssmenu li a {
+  background-color: #FF5D5D;
+  color: white;
+  display: block;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu li a:hover {
+  background: #FF5D5D;
+  color:#FFFFFF;
+  text-decoration: underline;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul li:hover a {
+  background: #FF5D5D;
+  color:#FFFFFF;
+  text-decoration: underline;
+}
+#cssmenu li ul {
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+}
+
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background-color: #FF5D5D;
+}
+
+  /*this is where the rounded corners for the dropdown disappears*/
+
+
+#cssmenu li:hover li a {
+  background: none;
+}
+
+#cssmenu li ul a {
+  display:block;
+  height:50px;
+  font-size:12px;
+  font-style:normal;
+  margin:0px;
+  padding:0px 10px 0px 15px;
+  text-align:left;
+}
+
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover a {
+  border: 0px;
+  color:#FFFFFF;
+  text-decoration:underline;
+}
+
+img {
+  display:block;
+  width:400px;
+	height:400px;
+  vertical-align: text-top;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+}
+
+h1 {
+  display:block;
+  height:auto;
+  font-size:25px;
+  font-style:normal;
+  background-color: #white ;
+  text-align: center;
+  padding:0px 10px 0px 15px;
+}
+
+p {
+  display:block;
+  height:auto;
+  font-size:15px;
+  font-style:normal;
+  text-align:left;
+  background-color: #white;
+  text-align: center;
+  padding:0px 10px 0px 15px;
+}
+table tr{
+  display:block;
+  height:auto;
+  font-size:15px;
+  font-style:normal;
+  text-align:right;
+  background-color: #white;
+  text-align: center;
+  padding:0px 10px 0px 15px;
+}
+
+footer p {
+  display:block;
+  height:50px;
+  font-size:15px;
+  font-style:normal;
+  margin:0px;
+  padding:0px 10px 0px 15px;
+  text-align:left;
+  background-color: #FE7E7E;
+  color:black;
+  text-align: center;
+}
